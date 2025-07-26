@@ -155,3 +155,95 @@
   line-height: 30px;
   margin-top: 24px;
 }
+
+/* 1. Sección general */
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* 2. Título */
+.reservation__title {
+  font-family: inter;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+/* 3. Formulario */
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+/* 4. Labels */
+.reservation__label {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  align-self: flex-start;
+  color: #000000;
+}
+
+/* 5. Campos de entrada */
+.reservation__input {
+  width: 100%;
+  max-width: 385px;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 4px;
+  border: 1px solid #838383;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+.reservation__input::placeholder {
+  color: #838383;
+}
+
+/* 6. Checkbox */
+.reservation__checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reservation__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+/* 7. Botón */
+.reservation__button {
+  font-family: inter;
+  width: 100%;
+  max-width: 385px;
+  height: 40px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.reservation__button:hover {
+  opacity: 0.7;
+}
