@@ -169,13 +169,16 @@
 
 /* 2. Título */
 .reservation__title {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   text-align: center;
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
   color: #000000;
-  margin: 100px 0 80px 0;
+  margin-top: 100px;
+  margin-right: 0;
+  margin-bottom: 80px;
+  margin-left: 0;
 }
 
 /* 3. Formulario */
@@ -190,7 +193,7 @@
 
 /* 4. Labels */
 .reservation__label {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -230,7 +233,7 @@
 
 /* 7. Botón */
 .reservation__button {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   width: 100%;
   max-width: 385px;
   height: 40px;
