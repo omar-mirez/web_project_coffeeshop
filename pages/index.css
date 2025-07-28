@@ -163,7 +163,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 80px 120px;
   font-family: "Inter", sans-serif;
 }
 
@@ -175,32 +175,31 @@
   font-weight: 500;
   line-height: 52px;
   color: #000000;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 /* 3. Formulario */
 .reservation__form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
   max-width: 385px;
   margin: 0 auto;
 }
 
 /* 4. Labels */
-.reservation__label {
+.form__label {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   align-self: flex-start;
   color: #000000;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* 5. Campos de entrada */
-.reservation__input {
+.form__input {
   width: 100%;
   max-width: 385px;
   height: 40px;
@@ -212,25 +211,25 @@
   box-sizing: border-box;
 }
 
-.reservation__input::placeholder {
+.form__input::placeholder {
   color: #838383;
 }
 
 /* 6. Checkbox */
-.reservation__checkbox-container {
+.form__checkbox-container {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.reservation__checkbox {
+.form__checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
 }
 
 /* 7. Botón */
-.reservation__button {
+.form__button {
   font-family: "Inter", sans-serif;
   width: 100%;
   max-width: 385px;
@@ -243,8 +242,19 @@
   font-weight: 500;
   line-height: 32px;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
-.reservation__button:hover {
+.form__button:hover {
   opacity: 0.7;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form__checkbox-label {
+  justify-content: center;
+  flex-direction: row;
 }
