@@ -1,0 +1,73 @@
+.form__label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  align-self: flex-start;
+  color: #000000;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* 5. Campos de entrada */
+.form__input {
+  width: 100%;
+  max-width: 385px;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 4px;
+  border: 1px solid #838383;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+/* 6. Checkbox */
+.form__checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+/* 7. Botón */
+.form__button {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  max-width: 385px;
+  height: 40px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form__checkbox-label {
+  justify-content: center;
+  flex-direction: row;
+}
